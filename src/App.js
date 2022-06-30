@@ -4,7 +4,7 @@ import PostList from "./components/PostList";
 // import MyButton from "./components/Ui/MyButton/MyButton";
 // import MyInput from "./components/Ui/Input/MyInput";
 // import Counter from "./components/Counter/Counter";
-// import ClassCounter from "./components/Counter/ClassCounter";
+import ClassCounter from "./components/Counter/ClassCounter";
 import styles from './styles/App.css'
 import PostForm from "./components/PostForm";
 import MySelect from "./components/Ui/MySelect";
@@ -42,7 +42,7 @@ function App() {
   
   return (
     <div className={styles.App}>
-      {/* <ClassCounter/> */}
+      <ClassCounter/>
 
       <PostForm create={ createPost } />
 
