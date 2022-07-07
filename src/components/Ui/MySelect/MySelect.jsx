@@ -9,8 +9,10 @@ const MySelect = ({ options, defaultValue, value, onChange }) => {
         >
             <option
                 disabled
-                value="">{defaultValue}
+                value="">
+                {defaultValue}
             </option>
+
             {options.map(option =>
                 <option key={option.value}
                     value={option.value}>
@@ -19,4 +21,4 @@ const MySelect = ({ options, defaultValue, value, onChange }) => {
         </select >
     );
 };
-export default MySelect;
+export default MySelect; 

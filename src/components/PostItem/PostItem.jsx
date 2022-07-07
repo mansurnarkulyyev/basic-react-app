@@ -2,7 +2,7 @@ import React from "react";
 import MyButton from "../Ui/MyButton";
 import s from "./PostItem.module.css";
 
-const Posts = (props) => {
+const PostItem = (props) => {
 
   return (
     <div>
@@ -20,4 +20,4 @@ const Posts = (props) => {
   );
 };
 
-export default Posts;
+export default PostItem;
